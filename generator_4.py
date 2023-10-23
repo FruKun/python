@@ -24,7 +24,5 @@ while(n<100):
     b = next(weeks)
     list.append(a + " " + b)
     n+=1
-for i in list:
-    print(i)
-
-
+for a in list:
+    print(a)
