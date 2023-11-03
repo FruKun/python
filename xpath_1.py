@@ -6,10 +6,9 @@ mp = {}
 i=0
 for child in entries:
     try:
-        a=entries[i].values()[0]
+        mp[child.text] = entries[i].values()[0]
     except IndexError:
-        a="None"
-    mp[child.text] = a
+        mp[child.text] = "None"
     i+=1
 for i in mp:
     print(i + " runtime = " + mp[i])
