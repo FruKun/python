@@ -1,13 +1,10 @@
 def isprime(n):
-    if n == 1:
+    if i<2:
         return False
-    if n == 2:
-        return True
-    for x in range(2, n):
-        if n % x == 0:
+    for j in range(2, i // 2 + 1):
+        if (i % j == 0):
             return False
-        else:
-            return True
+    return True
         
 def primes(n):
     i=0
