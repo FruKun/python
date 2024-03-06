@@ -1,2 +1,3 @@
 # python_3sem
- zadania python 3 sem zverev
+3 семестр python
+Преподаватель: Владимир Зверев 
